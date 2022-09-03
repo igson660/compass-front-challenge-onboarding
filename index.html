@@ -7,34 +7,55 @@
     <title>Onboarding</title>
   </head>
   <body>
-    <section class="card">
-      <!-- Image start -->
-      <div>
-        <img src="./assets/image01.png" alt="Pessoas em comunicação" />
-      </div>
-      <!-- Image end -->
-
-      <h1>Plant lover Community</h1>
-
-      <p>Find gardening enthusiasts from all over the world</p>
-
-      <!-- Radios Buttons start -->
-      <div>
-        <input type="radio" />
-        <input type="radio" />
-        <input type="radio" />
-      </div>
-      <!-- Radios Buttons end -->
-
-      <!-- Buttons start-->
-      <div>
-        <button>Continue</button>
-      </div>
-      <div>
-        <button>Skip</button>
-      </div>
-      <!-- Buttons end-->
-    </section>
+    <main class="container-card">
+      <section class="card" id="section1">
+        <div>
+          <img src="./assets/image01.png" alt="Pessoas trocando mensagens" />
+        </div>
+        <div>
+          <h1>Plant lover Community</h1>
+          <p>Find gardening enthusiasts from all over the world</p>
+        </div>
+        <div class="box-input-radio">
+          <div class="input-radio checked"></div>
+          <div class="input-radio"></div>
+          <div class="input-radio"></div>
+        </div>
+        <button name="button-section1">Continue</button>
+        <a name="skip">Skip</a>
+      </section>
+      <section class="card" id="section2">
+        <div>
+          <img src="./assets/image02.png" alt="Pessoas trocando sacolas" />
+        </div>
+        <div>
+          <h1>Get fast & safe delivery</h1>
+          <p>Get good quality products for your plants</p>
+        </div>
+        <div class="box-input-radio">
+          <div class="input-radio"></div>
+          <div class="input-radio checked"></div>
+          <div class="input-radio"></div>
+        </div>
+        <button name="button-section2">Continue</button>
+        <a name="skip">Skip</a>
+      </section>
+      <section class="card" id="section3">
+        <div>
+          <img src="./assets/image03.png" alt="Pessoa com um megafone" />
+        </div>
+        <div>
+          <h1>Buy & Sell Tools</h1>
+          <p>Buy & sell good quality products for your beautiful plants</p>
+        </div>
+        <div class="box-input-radio">
+          <div class="input-radio"></div>
+          <div class="input-radio"></div>
+          <div class="input-radio checked"></div>
+        </div>
+        <button name="button-section3">Get started</button>
+      </section>
+    </main>
   </body>
   <script src="./script.js"></script>
 </html>
