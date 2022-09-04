@@ -19,7 +19,8 @@ body {
   height: 100vh;
 }
 
-#section2, #section3 {
+#section2,
+#section3 {
   display: none;
 }
 
